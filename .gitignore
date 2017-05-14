@@ -1,0 +1,6 @@
+*.swp
+*.swo
+.idea/
+
+target/apidocs
+.DS_Store
