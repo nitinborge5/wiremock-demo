@@ -1,6 +1,8 @@
 package com.acmestore;
 
+import com.acmestore.resources.HelloWorldResource;
 import io.dropwizard.Application;
+import io.dropwizard.jersey.setup.JerseyEnvironment;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
@@ -23,7 +25,8 @@ public class StoreBackendApplication extends Application<StoreBackendConfigurati
     @Override
     public void run(final StoreBackendConfiguration configuration,
                     final Environment environment) {
-        // TODO: implement application
+        JerseyEnvironment jersey = environment.jersey();
+        jersey.register(new HelloWorldResource());
     }
 
 }
