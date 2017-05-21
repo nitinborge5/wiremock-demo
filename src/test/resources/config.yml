@@ -1,4 +1,4 @@
-openBookEndpoint: http://openlibrary.org
+openBookEndpoint: http://localhost:9090
 logging:
   level: INFO
   loggers:

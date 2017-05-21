@@ -1,0 +1,86 @@
+{
+  "ISBN:0201558025": {
+    "publishers": [
+      {
+        "name": "Addison-Wesley"
+      }
+    ],
+    "pagination": "xiii, 657 p. :",
+    "identifiers": {
+      "lccn": [
+        "93040325"
+      ],
+      "openlibrary": [
+        "OL1429049M"
+      ],
+      "isbn_10": [
+        "0201558025"
+      ],
+      "librarything": [
+        "45844"
+      ],
+      "goodreads": [
+        "112243"
+      ]
+    },
+    "subtitle": "a foundation for computer science",
+    "title": "Concrete mathematics",
+    "url": "http:\/\/openlibrary.org\/books\/OL1429049M\/Concrete_mathematics",
+    "classifications": {
+      "dewey_decimal_class": [
+        "510"
+      ],
+      "lc_classifications": [
+        "QA39.2 .G733 1994"
+      ]
+    },
+    "notes": "Includes bibliographical references (p. 604-631) and index.",
+    "number_of_pages": 657,
+    "cover": {
+      "small": "https:\/\/covers.openlibrary.org\/b\/id\/135182-S.jpg",
+      "large": "https:\/\/covers.openlibrary.org\/b\/id\/135182-L.jpg",
+      "medium": "https:\/\/covers.openlibrary.org\/b\/id\/135182-M.jpg"
+    },
+    "subjects": [
+      {
+        "url": "https:\/\/openlibrary.org\/subjects\/computer_science",
+        "name": "Computer science"
+      },
+      {
+        "url": "https:\/\/openlibrary.org\/subjects\/mathematics",
+        "name": "Mathematics"
+      }
+    ],
+    "publish_date": "1994",
+    "key": "\/books\/OL1429049M",
+    "authors": [
+      {
+        "url": "http:\/\/openlibrary.org\/authors\/OL720958A\/Ronald_L._Graham",
+        "name": "Ronald L. Graham"
+      },
+      {
+        "url": "http:\/\/openlibrary.org\/authors\/OL229501A\/Donald_Knuth",
+        "name": "Donald Knuth"
+      },
+      {
+        "url": "http:\/\/openlibrary.org\/authors\/OL2669938A\/Oren_Patashnik",
+        "name": "Oren Patashnik"
+      }
+    ],
+    "by_statement": "Ronald L. Graham, Donald E. Knuth, Oren Patashnik.",
+    "publish_places": [
+      {
+        "name": "Reading, Mass"
+      }
+    ],
+    "ebooks": [
+      {
+        "formats": {
+
+        },
+        "preview_url": "https:\/\/archive.org\/details\/concretemathemat00grah_444",
+        "availability": "restricted"
+      }
+    ]
+  }
+}

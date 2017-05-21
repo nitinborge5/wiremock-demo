@@ -1,5 +1,6 @@
 package com.acmestore;
 
+import com.acmestore.resources.BookResource;
 import com.acmestore.resources.HelloWorldResource;
 import io.dropwizard.Application;
 import io.dropwizard.jersey.setup.JerseyEnvironment;
@@ -27,6 +28,7 @@ public class StoreBackendApplication extends Application<StoreBackendConfigurati
                     final Environment environment) {
         JerseyEnvironment jersey = environment.jersey();
         jersey.register(new HelloWorldResource());
+        jersey.register(new BookResource(configuration.getOpenBookEndpoint()));
     }
 
 }
