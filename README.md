@@ -1,7 +1,7 @@
 # StoreBackend
 
 This project supposed to demonstrate how to do HTTP stubbing using WireMock on a Dropwizard project.
-Read the full article about the integration here.
+Read the full [article about the integration here](https://semaphoreci.com/community/tutorials/restful-integration-testing-with-wiremock-in-java).
 
 How to start the StoreBackend application
 ---
